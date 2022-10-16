@@ -541,3 +541,135 @@ h1 {
 	bottom: -90px;
 	right: -110px;
 }
+
+/* contact */
+
+.contact-column {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 59px;
+	gap: 100px;
+}
+
+.left-column-title {
+	font-family: var(--fonts-first-raleway);
+	font-weight: 400;
+	font-size: 49px;
+	margin-bottom: 22px;
+}
+
+.left-column-text {
+	font-family: var(--fonts-second-open-sans);
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 42px;
+}
+
+.column-items {
+	font-family: var(--fonts-second-open-sans);
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--color-gray);
+}
+
+.column-items img {
+	/* margin-right: 8px; */
+}
+
+.form-name {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-email {
+	display: flex;
+	flex-direction: column;
+}
+
+.left-column-elements {
+	display: flex;
+
+	gap: 20px;
+}
+
+.right-column {
+	display: flex;
+	flex-direction: column;
+	max-width: 440px;
+}
+
+.form-label {
+	font-family: var(--fonts-second-open-sans);
+	font-weight: 700;
+	font-size: 11px;
+	color: var(--color-primary);
+}
+
+.form-name {
+	border-bottom: 1px solid #95989a;
+}
+
+.form-email {
+	margin-top: 42px;
+	border-bottom: 1px solid #95989a;
+	margin-bottom: 30px;
+}
+.form-text {
+	border: none;
+}
+
+.form-sent-text {
+	max-width: 405px;
+}
+
+.form-checkbox {
+	display: flex;
+	flex-direction: row;
+}
+
+.form-checkbox input {
+	margin-right: 10px;
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.checkbox {
+	height: 24px;
+	width: 24px;
+	margin-right: 10px;
+	border: 1px solid #95989a;
+	border-radius: 4px;
+}
+
+.form-checkbox input:checked + span {
+	background-image: url(../assets/Checkmark.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.submit-btn {
+	position: relative;
+	left: 213px;
+	background-color: var(--color-primary);
+	border: none;
+	color: var(--color-white);
+	font-family: var(--fonts-second-open-sans);
+	font-weight: 700;
+	font-size: 13px;
+	margin-top: 20px;
+	margin-bottom: 59px;
+	padding: 20px 97px 19px;
+	box-shadow: 5px 10px 14px #07ace629;
+	border-radius: 35px;
+}
+
+.form-sent-text {
+	font-family: var(--fonts-second-open-sans);
+	font-weight: 400;
+	font-size: 12px;
+	color: #707070;
+}
