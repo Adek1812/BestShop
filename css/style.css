@@ -177,3 +177,367 @@ h1 {
 	font-weight: 400;
 	color: var(--color-gray);
 }
+
+/* benefits  */
+
+.benefits {
+	/* background-color: var(--color-light-gray);
+	padding-top: 105px;
+	padding-bottom: 35px;
+	padding-left: 251px; */
+	padding: 100px 0;
+	background-color: var(--color-light-gray);
+}
+
+.benefits-elements {
+	/* max-width: 1124px; */
+	padding: 0 100px;
+}
+
+.benefits-container {
+	/* display: flex;
+	justify-content: space-around;
+	background-color: var(--color-white);
+	border: 1px solid #E8E9ED; */
+	background-color: var(--color-white);
+	border: 1px solid #e8e9ed;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 37px;
+	border-radius: 5px;
+}
+
+.benefits-title {
+	font-family: var(--fonts-first-raleway);
+	font-weight: 400;
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+.benefits-description {
+	font-family: var(--fonts-second-open-sans);
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.benefits-text {
+	box-sizing: content-box;
+	max-width: 415px;
+	margin: 90px 36px;
+}
+.benefits-text::after {
+	content: '';
+	width: 300px;
+	border: 4px solid var(--color-redish);
+	/* background-color: var(--color-redish); */
+	display: block;
+	margin-top: 50px;
+}
+
+.benefits-img {
+	position: relative;
+}
+
+.benefits-img img {
+	position: relative;
+	z-index: 2;
+}
+
+.benefits-container-macbook {
+	--accent-color: var (var(--color-redish));
+}
+
+.benefits-container-macbook .benefits-img {
+	margin-right: 117px;
+	margin-bottom: 38px;
+}
+
+.benefits-container-macbook .benefits-img::before {
+	content: '';
+	width: 180px;
+	height: 180px;
+	background-color: var(--color-redish);
+	display: block;
+	border-radius: 40px;
+	position: absolute;
+	right: 0;
+	top: -40px;
+	transform: rotate(45deg);
+}
+
+.benefits-container-macbook .benefits-img img {
+	width: 386px;
+	height: auto;
+	position: relative;
+	z-index: 2;
+}
+
+.benefits-container-phone {
+	--accent-color: #07ace6;
+	flex-direction: row-reverse;
+	padding: 0 20px 0 70px;
+}
+
+.benefits-container-phone .benefits-img img {
+	width: 426px;
+	height: auto;
+}
+
+.benefits-container-phone .benefits-img::before {
+	content: '';
+	width: 320px;
+	height: 320px;
+	background-color: #07ace6;
+	display: block;
+	border-radius: 60%;
+	position: absolute;
+	top: -20px;
+}
+
+.benefits-text-phone {
+	box-sizing: content-box;
+	max-width: 415px;
+	margin: 90px 36px;
+}
+
+.benefits-container-phone .benefits-text-phone::after {
+	content: '';
+	width: 300px;
+	border: 4px solid var(--color-primary);
+
+	display: block;
+	margin-top: 50px;
+}
+
+.benefits-text-trumpet {
+	display: flex;
+	flex-direction: column;
+	max-width: 700px;
+	height: 370px;
+	padding: 70px 35px;
+	border: 1px solid #e8e9ed;
+}
+
+.benefits-text-trumpet::after {
+	content: '';
+	border: 4px solid var(--color-green);
+	width: 300px;
+}
+
+.benefits-title-double-box {
+	font-family: var(--fonts-first-raleway);
+	font-weight: 400;
+	font-size: 36px;
+}
+
+.benefits-description-double-box {
+	font-family: var(--fonts-second-open-sans);
+	font-weight: 400;
+	font-size: 16px;
+	margin: 30px 0 45px;
+}
+
+.double-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.double-box-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 550px;
+	height: 370px;
+	background-color: var(--color-green);
+}
+
+.double-box-img img {
+	max-width: 295px;
+	height: 207px;
+	height: auto;
+}
+
+/* price-list-box */
+
+.price-list-title {
+	font-family: var(--fonts-first-raleway);
+	font-weight: 400;
+	font-size: 36px;
+	text-align: center;
+	/* margin: 100px 0 50px; */
+	margin-top: 100px;
+}
+
+.price-list-box {
+	display: flex;
+	justify-content: center;
+	gap: 59px;
+}
+
+.price-list-box .basic-box {
+	margin-top: 71px;
+	margin-bottom: 197px;
+}
+
+.price-list-box .profesional-box {
+	margin-top: 50px;
+	margin-bottom: 179px;
+}
+
+.price-list-box .premium-box {
+	margin-top: 71px;
+	margin-bottom: 197px;
+}
+
+.basic-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid var(--color-redish);
+	border-radius: 18px;
+}
+
+.profesional-box {
+	border: 1px solid #07ace6;
+	border-radius: 18px;
+	box-shadow: 5px 10px 27px #07ace629;
+}
+
+.premium-box {
+	border: 1px solid var(--color-green);
+	border-radius: 18px;
+}
+
+.price-list-name {
+	font-family: var(--fonts-first-raleway);
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 14px;
+}
+
+.price-list-price {
+	font-family: var(--fonts-second-open-sans);
+	font-weight: 300;
+	font-size: 46px;
+}
+
+.special-offert {
+	font-family: var(--fonts-first-raleway);
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.price-list-elements {
+	font-family: var(--fonts-second-open-sans);
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.btn-price-list {
+	position: relative;
+	width: 150px;
+	height: 50px;
+	background-color: var(--color-redish);
+	padding: 16px 57px;
+	font-family: var(--fonts-second-open-sans);
+	font-weight: 700;
+	font-size: 13px;
+	color: var(--color-white);
+	border-radius: 23px;
+}
+
+.premium-box .btn-price-list {
+	background-color: var(--color-green);
+}
+
+.price-list-elements li {
+	margin-bottom: 20px;
+}
+
+.basic-box .price-list-name {
+	margin: 34px 160px 0 161px;
+}
+
+.basic-box .price-list-price {
+	margin: 14px 0 69px;
+	color: var(--color-redish);
+}
+
+.basic-box .price-list-elements {
+	margin-bottom: 81px;
+}
+.basic-box .btn-price-list {
+	bottom: -89px;
+}
+
+.pricing-items {
+	text-align: center;
+}
+
+.pricing-item::before {
+	content: '';
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+	margin-right: 10px;
+	background-image: url('../assets/Checkmark-1.svg');
+}
+
+.pricing-item-not::before {
+	content: '';
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+	margin-right: 11px;
+	background-image: url(../assets/Close.svg);
+}
+
+.profesional-box .price-list-name {
+	margin: 34px 141px;
+}
+
+.profesional-box .price-list-price {
+	color: #07ace6;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.profesional-box .special-offert {
+	text-align: center;
+	margin-bottom: 61px;
+}
+
+.profesional-box .pricing-items {
+	margin-bottom: 103px;
+}
+
+.btn-price-list-profesional {
+	left: 125px;
+	top: 15px;
+	background-color: #07ace6;
+	box-shadow: 5px 10px 14px #07ace629;
+	padding: 16px 64px 16px 65px;
+}
+
+.premium-box .price-list-name {
+	margin: 34px 143px 14px;
+}
+
+.premium-box .price-list-price {
+	color: var(--color-green);
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.premium-box .special-offert {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.premium-box .btn-price-list {
+	bottom: -90px;
+	right: -110px;
+}
