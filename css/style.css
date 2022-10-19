@@ -48,7 +48,9 @@ a {
 	font-weight: 700;
 	font-size: 11px;
 	color: var(--color-gray);
+	padding: 0 15px 23px;
 }
+
 .page-nav-list a:hover {
 	color: var(--color-black);
 	border-bottom: 4px solid var(--color-primary);
@@ -374,6 +376,8 @@ h1 {
 	display: flex;
 	justify-content: center;
 	gap: 59px;
+	margin-left: 180px;
+	margin-right: 180px;
 }
 
 .price-list-box .basic-box {
@@ -672,4 +676,44 @@ h1 {
 	font-weight: 400;
 	font-size: 12px;
 	color: #707070;
+}
+
+/* footer */
+
+.page-footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0px -5px 40px #00000029;
+	padding: 0 137px;
+}
+
+.footer-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.page-footer-logo {
+	margin-top: 21px;
+	font-family: var(--fonts-first-raleway);
+	font-weight: 300;
+	font-size: 26px;
+	color: var(--color-primary);
+}
+
+.footer-info {
+	margin-top: 7px;
+	margin-bottom: 17px;
+	font-family: var(--fonts-second-open-sans);
+	font-weight: 400;
+	font-size: 11px;
+	color: var(--color-gray);
+}
+
+.page-footer-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
 }
